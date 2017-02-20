@@ -1,7 +1,7 @@
 bioguide: S001198
 contact_form:
   method: post
-  action: "http://www.sullivan.senate.gov/contact/email"
+  action: "https://www.sullivan.senate.gov/contact/email"
   steps:
     - visit: "http://www.sullivan.senate.gov/contact/email"
     - fill_in:
