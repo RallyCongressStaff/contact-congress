@@ -74,10 +74,6 @@ contact_form:
         required: true
         options:
           Not Listed/Other: EMAIL
-    - javascript:
-      - value: document.querySelector(".required[name='MessageBody']").value = document.querySelector(".required[name='MessageBody']").value.replace(/"/g, '');
-    - javascript:
-      - value: jQuery('[name=captcha_code]').val(jQuery('a[href$=".wav"]').attr('href').match(/_([a-z0-9]+)\.wav/)[1]);
     - click_on:
       - value: Submit Information
         selector: ".btn-primary"
