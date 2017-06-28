@@ -1,9 +1,9 @@
 bioguide: P000612
 contact_form:
   method: post
-  action: "http://www.perdue.senate.gov/connect/email"
+  action: "https://www.perdue.senate.gov/connect/email"
   steps:
-    - visit: "http://www.perdue.senate.gov/connect/email"
+    - visit: "https://www.perdue.senate.gov/connect/email"
     - wait:
         - value: 3
     - fill_in:
