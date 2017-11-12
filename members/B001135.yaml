@@ -3,7 +3,7 @@ contact_form:
   method: post
   action: /contact/email
   steps:
-    - visit: "http://www.burr.senate.gov/contact/email"
+    - visit: "https://www.burr.senate.gov/contact/email"
     - select:
         - name: actions
           selector: "#actions"
@@ -266,6 +266,54 @@ contact_form:
             WV: WV
             WI: WI
             WY: WY
+       - name: subject
+          selector : "#subject"
+          required:true
+          options:
+          	- Academy Nominations
+            - Abortion
+            - Afghanistan
+            - Agriculture
+            - Animal Welfare
+            - Appropriations
+            - Budget
+            - Business
+            - Campaign Finance Reform
+            - Children
+            - Civil Rights
+            - Crime
+            - Death Penalty
+            - Defense
+            - Education
+            - Election Reform
+            - Energy
+            - Environment
+            - FEMA
+            - Federal Employees
+            - Foreign Affairs
+            - Gas and Oil Prices
+            - Guns
+            - Hate Crimes
+            - Health
+            - Homeland Security
+            - Housing
+            - Human Rights
+            - Immigration
+            - Internships
+            - Iraq
+            - Judiciary
+            - Medicaid
+            - Other
+            - Pensions
+            - Seniors
+            - Labor
+            - Social Security
+            - Space
+            - Taxes
+            - Telecommunications
+            - Trade
+            - Transportation
+            - Veterans
     - check:
         - name: response
           selector: "#response"
